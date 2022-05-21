@@ -8,12 +8,12 @@ export class AppController {
   @Get()
   @Render('home')
   root() {
-    return { title: 'Home Page' };
+    return { title: 'Authorization Page' };
   }
 
-  @Get('/about')
-  @Render('about')
+  @Get('/createrepo')
+  @Render('createrepo')
   about() {
-    return { title: 'About Page' };
+    return { title: 'Create Repo' };
   }
 }
